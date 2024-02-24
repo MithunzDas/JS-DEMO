@@ -28,3 +28,13 @@ const averageOfNums=function()
     return sum/arguments.length;
 };
 console.log(averageOfNums(1,2,3,4,5,6,7,8,9,10));
+
+const colors=['Red','Blue','Green','White'];
+for(const index in colors)
+{
+    console.log(index);
+}
+for(const index in colors)
+{
+    console.log(colors[index]);
+}
