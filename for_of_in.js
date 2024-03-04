@@ -24,3 +24,17 @@ const obj={
     },
 };
 console.log(obj.func());
+
+// -------------------------------bind()--------------------------------------------
+const employee={first_name:'Mithun',
+                last_name:'Das',
+                age:27,
+            };
+            let intro=function(city,state)
+            {
+                console.log(`${this.first_name} ${this.last_name} is ${this.age} years old and he is from ${city} ${state}`);
+            };
+            let introOne=intro.bind(employee,'Habra','West Bengal');
+            introOne();
+            
+            
