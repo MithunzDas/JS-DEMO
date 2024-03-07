@@ -1,8 +1,1 @@
-const withId=users.map((user)=>
-// {
-//     return{
-//         id:genId().toString(),
-//         ...user,
-//     }
-// });
-// console.log(withId);
+99,6,77,8,9
